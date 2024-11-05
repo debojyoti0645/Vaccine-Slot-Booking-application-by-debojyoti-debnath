@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414723935542",
+    "project_id": "vaccine-slot-booking-2b764",
+    "storage_bucket": "vaccine-slot-booking-2b764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414723935542:android:0a73d957526cb7436df797",
+        "android_client_info": {
+          "package_name": "com.example.vaccineslotbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqoY-N7eoB9QYh4MJs-BpdSoA_JI8R834"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

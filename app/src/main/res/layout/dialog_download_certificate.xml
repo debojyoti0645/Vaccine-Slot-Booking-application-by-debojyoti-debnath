@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter File Name: "
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- EditText for entering file name -->
+    <EditText
+        android:id="@+id/fileNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/midedittextborder"
+        android:hint="File Name"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <!-- Button container for Confirm and Cancel buttons -->
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Covid Vaccine Slot Booking</string>
+    <string-array name="location_array">
+        <item>Belur</item>
+        <item>Liluah</item>
+        <item>Bally</item>
+        <item>Howrah</item>
+    </string-array>
+    <string-array name="name_array">
+        <item>Covishield</item>
+        <item>Covaxin</item>
+        <item>Sputnik V</item>
+        <item>Corbevax</item>
+        <item>Covovax</item>
+        <item>ZyCoV-D</item>
+    </string-array>
+</resources>

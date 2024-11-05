@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingStart="25dp"
+    android:background="@drawable/listviewitemsback"
+    android:layout_marginBottom="10dp"
+    android:elevation="4dp"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_slot_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_vaccine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_vaccine_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_available_slots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="4dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_book_slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Slot"
+        android:layout_gravity="center"
+        android:textColor="@color/hintTextColor"
+        android:background="@drawable/listviewitemsback"/>
+
+</LinearLayout>
